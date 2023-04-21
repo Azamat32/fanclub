@@ -1,0 +1,133 @@
+.border{
+    border-bottom: 1px solid #EFEFF4;
+}
+.newPost_compose{
+    padding: 16px 55px 16px 55px;
+    border-bottom: 1px solid #EFEFF4;
+    min-height: 104px;
+    max-height: max-content;
+    transition: 0.4s;
+    p {
+        font-weight: 400;
+        font-size: 16px;
+        color: #ABABB8;
+    }
+}
+
+.newPost_btns_items{
+    margin-right: 16px;
+    a{
+        display: flex;
+        padding: 6px 12px;
+
+        align-items: center;
+        transition: 0.4s;
+        border-radius: 4px;
+        
+        svg{
+            margin-right: 7px;
+        }
+        span{
+            font-size: 14px;
+            font-weight: 400;
+            color: #ABABB8;  
+            transition: 0.4s;  
+        }
+    }
+   
+}
+.newPost_btns_items_active{
+    a{
+        padding: 6px 12px;
+        background: #F7F7F8;
+        border-radius: 4px;
+        transition: 0.4s;
+        display: flex;
+
+        align-items: center;
+        svg{
+            margin-right: 7px;
+        }
+        span{
+            font-size: 14px;
+            font-weight: 400;
+            color: #ABABB8;  
+            transition: 0.4s;  
+        }
+    }
+}
+.newPost_btns_items_active:hover{
+    a{
+        background: rgba(63, 80, 192, 0.05);
+        span{
+            color: #3F50C0;
+        }
+        svg{
+            path{
+                fill: #3F50C0;
+            }
+        }
+    }
+}
+.newPost_btns{
+    display: flex;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.newPost_rowBtns{
+    padding: 32px 55px;
+    .post{
+        background: #DDDEE8;
+        border-radius: 4px;
+        padding: 10px 67.5px;
+        color: #fff;
+    }
+    .message{
+        background: #FFFFFF;
+        border: 1px solid #ABABB8;
+        box-sizing: border-box;
+        border-radius: 4px;
+        padding: 10px 51.5px;
+        color: #ABABB8;
+        margin-right: 16px;
+    }
+}
+
+.newPost_btns_items:hover{
+    a{
+        background: #F7F7F8;
+        span{
+            color: #595964
+        }
+        svg{
+            path{
+                fill: #595964;
+            }
+        }
+    }
+}
+
+
+.newPost_compose{
+    textarea{
+        border: none;
+        width: 100%;
+        resize: none;
+        outline: none;
+        min-height: 20px;
+        max-height: max-content;
+        
+    }
+    textarea::-webkit-scrollbar {
+        width: 0;
+    }
+    textarea::placeholder{
+        color: #ABABB8;
+    }
+    textarea:focus::placeholder{
+        color: transparent;
+    }
+
+    
+}

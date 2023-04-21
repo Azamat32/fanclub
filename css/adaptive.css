@@ -1,0 +1,8 @@
+@media screen and (max-width: 391px) {
+  .login_page_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}

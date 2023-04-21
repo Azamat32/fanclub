@@ -1,0 +1,18 @@
+.suggestions {
+  -ms-grid-columns: 25% 75% !important;
+  grid-template-columns: 25% 75% !important;
+}
+
+.suggestion_page {
+  position: relative;
+}
+.suggestion_page .nav_search_absolute {
+  width: 80%;
+  max-width: 672px;
+}
+
+.suggestion_page_inner {
+  border-top: 1px solid #EFEFF4;
+  border-left: 1px solid #EFEFF4;
+  padding: 48px 39px;
+}

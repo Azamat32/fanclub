@@ -1,0 +1,401 @@
+.send_messages{
+    grid-template-columns: 25% 26% 49% !important;
+}
+.sendMessage_post_btn{
+    text-align: right;
+    margin-right:76px;
+
+    a{
+        background: #3F50C0;
+        border-radius: 4px;
+        font-weight: 700;
+        font-size: 16px;
+        color: #fff;
+        padding:10px 65px;
+        transition: .2s ease;
+    }
+    a:hover{
+        background: #23329A;
+    }
+}
+.sendMessage_page_users_inner{
+    height: 80vh;
+    overflow: auto;
+    &::-webkit-scrollbar{
+        width:0;
+    }
+}
+.sendMessage_post-video{
+    position: relative;
+    margin-right:76px;
+    margin-bottom: 24px;
+    img{
+        width: 100%;
+        max-height: 280px;
+    }
+    .blur {
+        background: rgba(0, 0, 0, 0.1);
+        height: 56px;
+        width: 56px;
+        backdrop-filter: blur(8px);
+        border-radius: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        cursor: pointer;
+      }
+      svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+      }
+}
+
+.sendMessage_page_users_inner{
+    .sendMessage_post-text{
+        padding: 0px 76px 24px 56px;
+        p{
+            font-weight: 400;
+            line-height: 24px;
+            font-size: 16px;
+            color: #595964;
+            margin-bottom: 12px;
+        }
+        a{
+            font-weight: 400;
+            font-size: 14px;
+            color: #3F50C0;
+            transition: 0.4s ease;
+            &:hover{
+                color: #7989F8;
+            }
+        }
+    }
+    .sendMessage_post-title{
+        display: flex;
+        align-items: center;
+        padding: 48px 76px 24px 56px;
+        svg{
+            margin-right: 24px;
+        }
+    }
+    .sendMessage_post-username{
+        display: flex;
+        padding: 0px 76px 24px 56px;
+        align-items: center;
+        justify-content: space-between;
+        .sendMessage_post-users_time{
+            display: flex;
+            align-items: center;
+            span{
+                font-weight: 400;
+                font-size: 18px;
+                color: #ABABB8;
+                margin-right: 12px;
+            }
+            svg{
+                cursor: pointer;
+            }
+            svg:hover{
+                path{
+                    fill: #3F50C0;
+                }
+            }
+        }
+        .sendMessage_check-users_item_name:hover{
+            .sendMessage_check-users_item_image{
+                border: 2px solid #7989F8;
+    
+                
+            }
+        }
+        .sendMessage_check-users_wrap{
+            padding-top: 24px;
+            height: 69vh;
+            overflow: auto;
+            &::-webkit-scrollbar{
+                width: 0;
+            }
+        }
+        .sendMessage_check-users_item{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 16px;
+            padding: 0px 55px ;
+        }
+        .sendMessage_check-users_item_name{
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+            h2{
+                font-weight: 700;
+                font-size: 16px;
+                color: #28282C;
+                margin-bottom: 4px;
+                display: flex;
+                align-items: center;
+                img{
+                    margin-left: 4px;
+                }
+            }
+            p{
+                font-weight: 400;
+                font-size: 14px;
+                color: #ABABB8;
+            }
+            .sendMessage_check-users_item_image{
+                max-width: 72px;
+                margin-right: 16px;
+                border: 2px solid #fff;
+                background-size: cover !important;
+                border-radius: 100%;
+                max-height: 72px;
+                height: 100vh;
+                transition: .2s ease;
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.sendMessage{
+    position: relative;
+
+    .nav_search_absolute{
+        input{
+
+            width: 170% !important;
+        }
+    }
+    
+    .sendMessage_check-users_item_name:hover{
+        .sendMessage_check-users_item_image{
+            border: 2px solid #7989F8;
+
+            
+        }
+    }
+    .sendMessage_check-users_wrap{
+        position: relative;
+        padding-top: 24px;
+        height: 69vh;
+        overflow: auto;
+        &::-webkit-scrollbar{
+            width: 0;
+        }
+    }
+    .sendMessage_check-users_item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 16px;
+        padding: 0px 55px ;
+    }
+    .sendMessage_check-users_item_name{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        h2{
+            font-weight: 700;
+            font-size: 16px;
+            color: #595964;
+            margin-bottom: 4px;
+            display: flex;
+            align-items: center;
+            img{
+                margin-left: 4px;
+            }
+        }
+        p{
+            font-weight: 400;
+            font-size: 14px;
+            color: #ABABB8;
+        }
+        .sendMessage_check-users_item_image{
+            max-width: 48px;
+            margin-right: 16px;
+            border: 2px solid #fff;
+            background-size: cover !important;
+            border-radius: 100%;
+            max-height: 48px;
+            height: 100vh;
+            transition: .2s ease;
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .sendMessage_wrap{
+        border-top: 1px solid #EFEFF4;
+        border-left: 1px solid #EFEFF4;
+        border-right: 1px solid #EFEFF4;
+        .sendMessage_check-title{
+            display: flex;
+            justify-content: space-between;
+            padding: 53px 55px 16px;
+            border-bottom: 1px solid #EFEFF4;
+            label{
+                font-weight: 400;
+                font-size: 14px;
+                color: #3F50C0;
+                cursor: pointer;
+            }
+        }
+        .custom-checkbox {
+            position: absolute;
+            z-index: -1;
+            opacity: 0;
+        }
+        .sendMessage_check-search{
+            padding: 14px 55px;
+            border-bottom: 1px solid #EFEFF4;
+
+            .sendMessage_check-search_wrap{
+                display: flex;
+                align-items: center;
+                img{
+                    margin-right: 12px;
+                }
+                input{
+                    border: none;
+                }
+                input:focus::placeholder{
+                    opacity: 0;
+                }
+                input::placeholder{
+                    font-weight: 400;
+                    font-size: 16px;
+                    color: #ABABB8;
+                }
+            }
+        }
+    }
+}
+
+.custom-checkbox + label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+    cursor: pointer;
+}
+.sendMessage_check-title_wrap{
+    .custom-checkbox + label::before {
+        content: '';
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        flex-shrink: 0;
+        flex-grow: 0;
+        border: 1px solid #ABABB8;
+        border-radius: 5px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 50% 50%;
+    }
+}
+
+.custom-checkbox:checked+label::before {
+    border-color: #3F50C0;
+    background-color: #3F50C0;
+    background-image: url("../img/checkSpan.svg");
+}
+.sendMessage_post{
+    border-top: 1px solid #EFEFF4;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px){
+    .send_messages{
+        grid-template-columns: 30%  70% 0% !important;
+        .nav_search_absolute{
+            max-width: 100% !important;
+            width: 100% !important;
+            input{
+                width: 94% !important; 
+            }
+        }
+    }
+    .sendMessage_check-search{
+        display: none;
+    }
+    .sendMessage_check-title{
+        padding: 24px 47px 16px  !important;
+
+        border-bottom: none !important;
+        justify-content: space-between !important; 
+       
+        .sendMessage_check-title_wrap{
+            display: none;
+
+            label {
+                display: none;
+            }
+        }
+       
+    }
+    .sendMessage_post{
+        display: none;
+    }
+    .sendMessage_check-users_item{
+        padding: 0px 47px !important;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .adaptive_pad{
+        display: none !important;
+    }
+    .sendMessage_check-users{
+        .sendMessage_post_btn{
+            a{
+                position: fixed;
+                width: 100%;
+                display: block;
+                text-align: center;
+                margin: 0 16px;
+                bottom: 110px;
+                max-width: 92%;
+            }
+        }
+    }
+    .sendMessage_check-users_item{
+        padding: 0px 16px !important;
+    }
+   
+    .sendMessage_check-title{
+        padding: 24px 16px 16px !important;
+        border-bottom: none !important;
+        .sendMessage_check-title_wrap{
+            label {
+                display: none;
+            }
+        }
+       
+    }
+    .send_messages{
+        grid-template-columns: 0%  100% 0% !important;
+    }
+}
